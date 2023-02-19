@@ -3,11 +3,11 @@
  */
 
 // module from node.js (internal packages)
-const path = require("node:path");
+import path from "path";
 
 // external packages
-const express = require("express");
-const open = require("open");
+import express from "express";
+import open from "open";
 
 const PORT = 3000;
 
